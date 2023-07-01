@@ -20,6 +20,7 @@
 .App-body {
   border: 1px solid red;
   display: flex;
+  min-height: 100vh;
 }
 
 .App-main-photo {
