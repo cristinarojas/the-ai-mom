@@ -1,0 +1,29 @@
+#root {
+  width: 100%;
+}
+
+.App-header {
+  background-color: #282c34;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-body {
+  border: 1px solid red;
+  display: flex;
+  flex-direction: row;
+  min-height: 100vh;
+}
+
+.App-main-photo {
+  border: 1px solid green;
+}
+
+.App-main-chat {
+  border: 1px solid blue;
+  width: 100%;
+}
