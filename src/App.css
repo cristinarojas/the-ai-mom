@@ -25,7 +25,6 @@
 }
 
 .app-main-chat {
-  border: 1px solid blue;
   width: 100%;
   text-align: center;
 }
@@ -37,10 +36,24 @@
   border-radius: 5px;
   font-size: 16px;
   width: 70%;
+  margin-bottom: 40px;
 }
 
 /* Styling for the input field when focused */
 .ai-chat input:focus {
   outline: none;
-  box-shadow: 0 0 5px rgba(104, 104, 105, 0.5);
+  box-shadow: 0 0 5px rgba(174, 174, 174, 0.5);
+}
+
+.message.bot {
+  color: rgb(2, 2, 2);
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.message.user {
+  color: rgb(0, 59, 29);
+  font-size: 22px;
+  font-weight: bold;
+  font-style: italic;
 }
