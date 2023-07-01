@@ -7,7 +7,7 @@ import "./App.css";
 function App() {
   // Local state
   const [inputValue, setInputValue] = useState("");
-  const [arrayValues] = useState(["mainMom", "toddler", "mainMom3"]);
+  const [arrayValues] = useState(["mainMom", "toddler", "milk"]);
 
   // Methods
   const handleInputChange = (e: any) => {
