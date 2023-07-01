@@ -1,5 +1,6 @@
 #root {
   width: 100%;
+  font-family: "Asap Condensed", sans-serif;
 }
 
 .app-header {
@@ -24,6 +25,22 @@
 }
 
 .app-main-chat {
-  /* border: 1px solid blue; */
+  border: 1px solid blue;
   width: 100%;
+  text-align: center;
+}
+
+/* Styling for the input field */
+.ai-chat input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  width: 70%;
+}
+
+/* Styling for the input field when focused */
+.ai-chat input:focus {
+  outline: none;
+  box-shadow: 0 0 5px rgba(104, 104, 105, 0.5);
 }
