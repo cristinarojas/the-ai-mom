@@ -2,7 +2,7 @@
   width: 100%;
 }
 
-.App-header {
+.app-header {
   background-color: #282c34;
   display: flex;
   flex-direction: column;
@@ -12,18 +12,18 @@
   color: white;
 }
 
-.App-body {
-  border: 1px solid red;
+.app-body {
+  /* border: 1px solid red; */
   display: flex;
   flex-direction: row;
   min-height: 100vh;
 }
 
-.App-main-photo {
-  border: 1px solid green;
+.main-photo {
+  /* border: 1px solid green; */
 }
 
-.App-main-chat {
-  border: 1px solid blue;
+.app-main-chat {
+  /* border: 1px solid blue; */
   width: 100%;
 }
